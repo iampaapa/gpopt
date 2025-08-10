@@ -1,0 +1,14 @@
+[project]
+name = "gpopt"
+version = "1.0.0"
+description = "A GPU-accelerated Genetic Programming library"
+authors = [
+    { name = "Paapa Kwesi Quansah", email = "officialpaapa@gmail.com" },
+]
+
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[tool.setuptools.packages.find]
+where = ["src"]
