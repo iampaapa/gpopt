@@ -22,5 +22,7 @@ dist/
 .vscode/
 .idea/
 
-# temporary README.md
-README.md
+# Results and logs
+results/
+logs/
+runs/
